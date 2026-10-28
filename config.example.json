@@ -1,0 +1,22 @@
+{
+  "vault": "~/Documents/Obsidian/MyVault",
+  "folder": "WhatsApp",
+  "me": "Me",
+  "groups": true,
+  "include_archived": true,
+  "include_chats": [],
+  "exclude_chats": [],
+  "voice_notes": {
+    "transcribe": false,
+    "model": "mlx-community/whisper-large-v3-turbo",
+    "max_per_run": 20
+  },
+  "summaries": {
+    "enabled": false,
+    "model": "claude-opus-5-5",
+    "effort": "medium",
+    "exclude_chats": [],
+    "max_input_chars": 400000,
+    "max_days_per_run": 3
+  }
+}
